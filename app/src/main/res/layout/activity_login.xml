@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+            <EditText
+                android:hint="ENTER-USER-ID"
+                android:id="@+id/etLoginUserId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+
+            <EditText
+                android:hint="ENTER-PASSWORD"
+                android:id="@+id/etLoginPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+
+        <Button
+            android:textColor="@color/white"
+            android:background="@mipmap/btn"
+            android:id="@+id/btnLogin"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:layout_marginTop="24dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

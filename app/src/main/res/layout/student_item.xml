@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tvStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Student Name"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+              />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/btn"
+            android:textColor="@color/white"
+
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
